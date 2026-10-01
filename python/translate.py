@@ -18,7 +18,7 @@ from find_model import candidates, load
 
 def sentences(text):
     """A simple splitter: sentence-ending punctuation followed by a space."""
-    return [s for s in re.split(r"(?<=[.!?。！？])\s+", text.strip()) if s]
+    return [s for s in re.split(r"(?<=[.!?])\s+|(?<=[。！？])\s*", text.strip()) if s.strip()]
 
 
 def main():

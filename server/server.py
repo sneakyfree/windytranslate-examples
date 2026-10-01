@@ -42,7 +42,7 @@ def split(text):
     """One sentence per input: small pair models drop or invent sentences when
     given a whole paragraph. Line breaks are kept."""
     lines = text.split("\n")
-    return [[s for s in re.split(r"(?<=[.!?。！？])\s+", line.strip()) if s] for line in lines]
+    return [[s for s in re.split(r"(?<=[.!?])\s+|(?<=[。！？])\s*", line.strip()) if s.strip()] for line in lines]
 
 
 def translate(text):
