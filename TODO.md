@@ -11,7 +11,7 @@ The owner's gates before any big marketing push, in order: (1) the owner and a f
 
 Honest state (2026-11-07): three small examples (find a model, translate locally, self-host with Docker), last changed 2026-10-01. No tests and no CI workflows.
 
-- [ ] Catch-up TODO PR merged to main (the we-are-live line, the gates, the line standard) · OWNER Windy Translate · ADDED 2026-11-06 · DUE 2026-11-07 · STATUS waiting on a reader + the owner's stamp · SOURCE this PR (#2)
+- [ ] Rename this repo windytranslate-examples -> windy-translate-examples (repos named like their team): first count every reference to the old name (CI lists, scripts, site links, uptime checks, docs), then rename in a planned batch with a before/after check; GitHub redirects the old URL. · OWNER Windy Translate · ADDED 2026-11-06 · DUE 2026-11-13 (the count; renames from 2026-11-16) · STATUS now · SOURCE owner decision 2026-11-06
 
 ## Waiting on
 
@@ -27,4 +27,5 @@ Checked 2026-11-07: besides `main`, only this PR's branch (merge, then delete).
 
 ## Done (last 30 days)
 
+- [x] Catch-up TODO PR merged to main (the we-are-live line, the gates, the line standard) · OWNER Windy Translate · ADDED 2026-11-06 · DONE 2026-11-07 · PROOF #2 d3588d8f
 - 2026-11-04: #1 TODO.md + CLAUDE.md line (b145d20).
