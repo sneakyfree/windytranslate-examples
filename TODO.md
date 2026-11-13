@@ -11,7 +11,7 @@ The owner's gates before any big marketing push, in order: (1) the owner and a f
 
 Honest state (2026-11-07): three small examples (find a model, translate locally, self-host with Docker), last changed 2026-10-01. No tests and no CI workflows.
 
-- [ ] Rename this repo windytranslate-examples -> windy-translate-examples (repos named like their team): first count every reference to the old name (CI lists, scripts, site links, uptime checks, docs), then rename in a planned batch with a before/after check; GitHub redirects the old URL. · OWNER Windy Translate · ADDED 2026-11-06 · DUE 2026-11-13 (the count; renames from 2026-11-16) · STATUS now · SOURCE owner decision 2026-11-06
+- [ ] Rename this repo windytranslate-examples -> windy-translate-examples (repos named like their team): first count every reference to the old name (CI lists, scripts, site links, uptime checks, docs), then rename in a planned batch with a before/after check; GitHub redirects the old URL. · OWNER Windy Translate · ADDED 2026-11-06 · DUE 2026-11-16 (18:00Z) (the count; renames from 2026-11-17) · STATUS waiting on the shared count · SOURCE owner decision 2026-11-06
 
 ## Waiting on
 
