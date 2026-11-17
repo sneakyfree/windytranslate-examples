@@ -5,7 +5,7 @@ right model for a language pair, translate with it, and self-host it behind a
 small HTTP server. No API key, no account, and your text never leaves your
 machine.
 
-The catalogue (1,660 translation pair models, 3 multilingual models and 66
+The catalogue (1,575 translation pair models, 3 multilingual models and 61
 speech-to-text models, each with its measured score, licence and attribution)
 is at **[windytranslate.com](https://windytranslate.com)** and as a single JSON
 file at [`windytranslate.com/models.json`](https://windytranslate.com/models.json).
